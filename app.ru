@@ -1,4 +1,5 @@
-import os
+import sys
+sys.path.append('/opt/render/project')import os
 import telebot
 from http.server import BaseHTTPRequestHandler, HTTPServer
 from threading import Thread
